@@ -43,6 +43,7 @@ conda install -c bioconda google-sparsehash
 **Note:** We further modify `spconv\spconv\functional.py` to make `grad_output` contiguous. Make sure you use our modified `spconv`.
 
 * To compile `spconv`, firstly install the dependent libraries. 
+
 **Note:** In ubuntu 18.04 need to create symlink:
 ```bash
 sudo ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.6 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
